@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Pricing</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Our Product Pricing</h1>
+  </header>
+  <main>
+    <section id="pricing">
+      <div class="pricing-option">
+        <h2>Basic Plan</h2>
+        <p>$10/month</p>
+        <button>Sign Up</button>
+      </div>
+      <div class="pricing-option">
+        <h2>Standard Plan</h2>
+        <p>$20/month</p>
+        <button>Sign Up</button>
+      </div>
+      <div class="pricing-option">
+        <h2>Premium Plan</h2>
+        <p>$30/month</p>
+        <button>Sign Up</button>
+      </div>
+    </section>
+    <section id="landing">
+      <h2>Why Choose Us?</h2>
+      <p>We provide the best features and support in the market. Sign up now!</p>
+      <button>Learn More</button>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Your Company</p>
+  </footer>
+</body>
+</html>
+CSS (styles.css):
+
+css
+Copy code
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+#pricing {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pricing-option {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
